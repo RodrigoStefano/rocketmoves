@@ -4,13 +4,13 @@ import { ThemeProvider } from 'styled-components'
 
 import GlobalStyles from './styles/global.js'
 import theme from './styles/theme.js'
-import { SingIn } from './pages/SingIn/index.jsx'
+import { SingUp } from './pages/SingUp/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={ theme }>
       <GlobalStyles />
-      <SingIn />
+      <SingUp />
     </ThemeProvider>
   </React.StrictMode>,
 )
