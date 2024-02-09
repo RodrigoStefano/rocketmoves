@@ -17,7 +17,7 @@ export const Container = styled.div`
 
         background-color: transparent;
         border: none;
-        padding: 16;
+        padding: 16px;
 
         color: ${({ theme }) => theme.COLORS.PRIMARY_COLOR};
 
@@ -27,6 +27,6 @@ export const Container = styled.div`
     }
 
     > svg{
-        margin: 0 16px;
+        margin-left: 16px;
     }
 `
