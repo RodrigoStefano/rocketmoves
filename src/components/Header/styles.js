@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../styles/theme";
 
 export const Container = styled.div`
     grid-area: "header";
@@ -10,6 +11,10 @@ export const Container = styled.div`
     gap: 64px;
     align-items: center;
     justify-content: center;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
     h1{
         font-size: 24px;
