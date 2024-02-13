@@ -1,4 +1,5 @@
 import { Container } from "./styles";
+import { Link } from "react-router-dom";
 
 import { Input } from "../Input";
 
@@ -21,7 +22,8 @@ export function Header(){
                         sair
                     </a>
                 </div>
-                <img src="https://github.com/RodrigoStefano.png" alt="Imagem do usuário" />
+                
+                <Link to="/profile" className="imageUser"><img src="https://github.com/RodrigoStefano.png" alt="Imagem do usuário" /></Link>
             </div>
         </Container>
     )

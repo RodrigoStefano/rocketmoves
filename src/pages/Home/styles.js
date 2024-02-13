@@ -32,6 +32,7 @@ export const TitlePage = styled.div`
 export const Content = styled.div`
     grid-area: "content";
     margin: 37px 123px 58px;
+    padding: 0 12px 0 0;
     overflow-y: auto;
 
     > div + div{

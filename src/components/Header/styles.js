@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import theme from "../../styles/theme";
+import { Link } from "react-router-dom";
 
-export const Container = styled.div`
+export const Container = styled.header`
     grid-area: "header";
     width: 100%;
     height: 116px;
@@ -40,11 +40,14 @@ export const Container = styled.div`
                 color: ${({ theme }) => theme.COLORS.GRAY_300};
             }
         }
-        > img{
+        > .imageUser{
             width: 64px;
             height: 64px;
-            border-radius: 50%;
             margin-left: 9px;
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
         }
     }
 `
