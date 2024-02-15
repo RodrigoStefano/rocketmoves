@@ -9,13 +9,10 @@ export const Container = styled.div`
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_400};
 
-    > h2{
+    > a{
+        color: ${({ theme }) => theme.COLORS.PRIMARY_COLOR};
         font-size: 24px;
-        margin-bottom: 8px;
-    }
-
-    > img{
-        margin-bottom: 15px;
+        font-weight: bold;
     }
 
     > p{
@@ -26,7 +23,7 @@ export const Container = styled.div`
 
         color: ${({ theme }) => theme.COLORS.GRAY_200};
         text-align: justify;
-        margin-bottom: 30px;
+        margin: 24px 0 30px;
     }
 
     > #tags{
