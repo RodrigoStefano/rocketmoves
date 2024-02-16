@@ -31,7 +31,7 @@ export default createGlobalStyle`
         filter: brightness(0.9);
     }
 
-    input:focus{
+    input:focus, textarea:focus{
         outline: none;
     }
 `

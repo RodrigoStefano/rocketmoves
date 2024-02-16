@@ -10,7 +10,7 @@ export function Profile(){
         <Container>
             <header>
                 <Link to="/">
-                <FiArrowLeft /> Voltar
+                <FiArrowLeft /> Home
                 </Link>
             </header>
 

@@ -24,7 +24,7 @@ export const TitlePage = styled.div`
         font-weight: normal;
      }
 
-     > button{
+     > a{
         width: 207px;
      }
 `

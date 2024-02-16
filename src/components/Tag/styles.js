@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import theme from "../../styles/theme";
+
 export const Container = styled.button`
     width: max-content;
     margin-right: 8px;
